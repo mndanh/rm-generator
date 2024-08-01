@@ -24,7 +24,7 @@ function questions(){
             type: "list",
             message: "What license is this project using??",
             name: 'license',
-            choices: [],
+            choices: ["MIT", "Apache 2.0", "GNU General Public License v3.0", "BSD 2-Clause Simplified License", "BSD 3-Clause New or Revised License", "Boost Software License 1.0", "reative Commons Zero v1.0 Universal"],
         },
         {
             type: "input",

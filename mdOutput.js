@@ -28,8 +28,8 @@ function mdOutput(data) {
     ${data.tests}
 
     ## Questions
-    - [Click here to view my project on GitHub](https://www.github.com/${data.github})
-    - [Contact me with any questions or input you may have](mailto:${data.email})
+    - [Click here to view my project on GitHub:](https://www.github.com/${data.github})
+    - [Contact me with any questions or input you may have:](${data.email})
 
     `
     return readme;
